@@ -45,7 +45,7 @@ async def process_data(input_data: DataInput):
         response = {
             "is_success": True,
             "user_id": "khush_patel_17112004",  # Replace with your details
-            "email": "khush.patel2022@vitstudent.ac.in",  # Replace with your email
+            "email": "khush.2022@vitstudent.ac.in",  # Replace with your email
             "roll_number": "22BCE3178",  # Replace with your roll no
             "odd_numbers": odd_numbers,
             "even_numbers": even_numbers,
@@ -63,3 +63,4 @@ async def process_data(input_data: DataInput):
 async def root():
 
     return {"message": "Full Stack API is running!"}
+
